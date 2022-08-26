@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Laronix Clinical Trial Survey
+	</title>
+
+
+<script>
+window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    document.getElementById("myButton").disabled = true; 
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+    document.getElementById('myButton').innerHTML="Submitted";
+   document.getElementById('myButton').style.backgroundColor = '#556b2f';  
+       document.getElementById('myButton').style.border = '2px solid white';  
+       document.getElementById('myButton').style.color = 'white'; 
+    })
+  });
+});
+</script>
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: white;
+          	background-image:  url(https://www.amgc.org.au/wp-content/uploads/gravity_forms/68-038966e2739c1a018cadd1be36eb6299/2020/10/Logo-Small.png);
+          background-repeat: no-repeat;
+          background-size: 100px 100px;
+          background-position: 35% 0; 
+			font-family: Verdana;
+			text-align: center;
+          	color:black;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #476857;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+          	color: #ffff;
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		h1{
+          position: fixed;
+          color: black;
+          padding-left: 1%;
+          padding-top:0.5%;
+          
+      }
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+      h{
+       
+          color: black;
+          font-size:35px;
+      }
+
+			/* Styling Button */
+		button {
+			background-color: white;
+			border: 1px solid #777;
+			border-radius: 15px;
+           color:#476857;
+			font-family: inherit;
+			font-size: 15px;
+			display: block;
+          	cursor:pointer;
+			width: 70%;
+          	height: 35px;
+          
+			
+			margin-bottom: 20px;
+       	margin-left: 15%;
+          margin-right: 15%;
+          	
+		}
+
+      button:active {
+    background-color: #476857;
+    border: 2px solid white;
+    color:white;
+        
+}
+
+.quest {
+border: 2px solid #FFFF;
+}
+	</style>
+  </head>
+  
+<body>
+	<p ></p>
+  <h >Intelligibility Test</h>  
+<form id="my-form" 
+  method="POST"   action="https://script.google.com/macros/s/AKfycbxwpDxoWtURoIb6NIHFi6IF7yJG7m670MVrQcIA1JGlIfI6RTH0ys3jSQ58ZaJp_R39/exec"
+>
+ <!-- Details -->
+		<div class="form-control">
+		<div class="form-control quest">
+		 <h1>16</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1d78xKHrHzthZVS8EPFv9GrnDYYt4IAUY/preview?usp=sharing">
+		<!--Q46::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q46"   
+				id="ques46"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+	<br/>
+
+		<div class="form-control quest">
+		 <h1>17</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1Bmdpjg8u2kO7WEqCbpkUI2GUsndDFypB/preview?usp=sharing">
+		<!--Q47::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q47"   
+				id="ques47"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+	<br/>
+
+		<div class="form-control quest">
+		 <h1>18</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1NT0Uxh7NYWRIhk3p22WBDWg9vLeHN9fF/preview?usp=sharing">
+		<!--Q48::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q48"   
+				id="ques48"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+	<br/>
+
+		<div class="form-control quest">
+		 <h1>19</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1xQ0IMZNFWJx9Wfo_qDoaqyeWNre3BIzf/preview?usp=sharing">
+		<!--Q49::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q49"   
+				id="ques49"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+<br/>
+
+		<div class="form-control quest">
+		 <h1>20</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1BmX-ylDvEr0uclmRidC8sypEY4MJQr9e/preview?usp=sharing">
+		<!--Q50::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q50"   
+				id="ques50"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+<br/>
+		<div class="form-control quest">
+		 <h1>21</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1C3sAHJikxxwHA-uXdQq7kKcGz6zi9A7m/preview?usp=sharing">
+		<!--Q51::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q51"   
+				id="ques51"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+		<div class="form-control quest">
+		 <h1>22</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1sU8LdzhxTZiuMT1EYj_i0yKo75qZB8o4/preview?usp=sharing">
+		<!--Q52::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q52"   
+				id="ques52"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+<br/>
+
+		<div class="form-control quest">
+		 <h1>23</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1l_c7Pa2hMz0WDB2wjivrsquM7yXOaPIr/preview?usp=sharing">
+		<!--Q53::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q53"   
+				id="ques53"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+<br/>
+		<div class="form-control quest">
+		 <h1>24</h1>	
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1gJpZuyTUJD4_L5r3Zkli4LUBRwGHQw6L/preview?usp=sharing">
+		<!--Q54::INSERT LINK FOR AUDIO ABOVE -->
+</iframe>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<!-- Input Type Text -->
+			<input type="text"
+                name="Q54"   
+				id="ques54"
+				placeholder="Transcribe here please" required />
+			</label>
+		
+		</div>
+	<br/>
+
+	
+<br/>
+
+
+		<!-- Multi-line Text Input Control -->
+  		
+		<button type="submit" id="myButton" value="submit">
+			Submit
+		</button>
+          <br/>
+	</form>
+</body>
+
+</html>
+</body>
+
+</html>

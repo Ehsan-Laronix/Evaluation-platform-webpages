@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Laronix Clinical Trial Survey
+	</title>
+
+
+<script>
+window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    document.getElementById("myButton").disabled = true; 
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+     document.getElementById('myButton').innerHTML="Saved";
+   document.getElementById('myButton').style.backgroundColor = '#556b2f';  
+       document.getElementById('myButton').style.border = '2px solid white';  
+       document.getElementById('myButton').style.color = 'white'; 
+    })
+  });
+});
+  
+document.getElementById("nextPageButton").onclick = function () {
+        location.href = "www.geeksforgeeks.org/how-to-extract-text-from-images-with-python/";
+    };
+</script>
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: none;
+          	background-image:  url(https://www.amgc.org.au/wp-content/uploads/gravity_forms/68-038966e2739c1a018cadd1be36eb6299/2020/10/Logo-Small.png);
+          background-repeat: no-repeat;
+          background-size: 100px 100px;
+          background-position: 35% 0; 
+			font-family: New Times Roman;
+			text-align: center;
+          	color:black;
+		}
+		h1{
+          font-size: 40px;
+      }
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #476857;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+          	color: #ffff;
+          	font-size: 20px;
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #282C35;
+			border: 1px solid #777;
+			border-radius: 10px;
+           color:white;
+			font-family: inherit;
+			font-size: 15px;
+			display: block;
+          	align-items: center;
+			width: 50%;
+          	height: 30px;
+          	cursor:pointer;
+			
+			margin-bottom: 20px;
+          	margin-left: 25%;
+          margin-right: 25%;
+          	
+		}
+     
+      button:active {
+    background-color: white ;
+    border: 2px solid #476857;
+    color:#476857;
+        
+} 
+      .opt-drop{
+      width:80%;
+        height:25px;
+        font:inherit;
+         background-color: #4D4D4D;
+        color:#FFFF;
+        text-align: center; 
+        border:0.5px solid #FFFF;
+        
+      }
+		.option-sect{
+		margin-top:10px;
+		vertical-align: middle;
+		border: 0.5px solid white;
+		
+
+		}
+      .parent {
+ 	 border: none;
+		width:100% ;
+        height:50px;
+        margin-top:20px
+  }
+
+.child {
+  display: inline-block;
+  border: none;
+  
+  
+  vertical-align: middle;
+  width:45%;
+  height:100%
+}
+
+.child-2 {
+  display: inline-block;
+  border: none;
+  
+  vertical-align: middle;
+   width:60%; 
+   height:60px;
+}
+      
+   .slidecontainer {
+  width: 100%;
+    
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top:20px;
+}
+
+.slider:hover {
+  opacity: 0.8;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background:#78ff78;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}  
+      #nxtBtn{
+        margin-top:50px;
+         margin-left:80px;
+        height:25px;
+        width: 90px;
+      }
+      
+      .audioDisp{
+       width:60%; 
+        height:80px;
+      }
+	</style>
+  </head>
+  
+<body>
+	<p ></p>
+  <h1 >Naturalness Test</h1>  
+<form id="my-form" 
+  method="POST"   action="https://script.google.com/macros/s/AKfycbyePbLDgYxSEu7rS6dD_UXAqZ_SA7p9hcPdHvpyjIdZvqtdaxX_8aO7joMc5E1s7bx4/exec"
+>
+
+ <!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+                name="name_"
+				id="name"
+				placeholder="Enter your name" required />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+                name="email_"   
+				id="email"
+				placeholder="Enter your email" required />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+                name="age_"   
+				id="age"
+				placeholder="Enter your age" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which option best describes you?
+			</label>
+			
+			<!-- Dropdown options -->
+	<!-- Dropdown options -->
+			<select name="role" id="role" required>
+				<option value="Healthy Listener">Healthy Listener</option>
+				<option value="SLP">
+					Speech Pathologist
+				</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+
+
+
+<div class="form-control">
+<div class="form-control">
+			<label>
+				1. Listen to the audio below and consider the rating of the healthy voice as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
+			</label>
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1BIzum7N8UUwEJJeW6EuoRNBHuaJUD9MH/preview?usp=sharing">
+</iframe>		
+		</div>
+  
+ 
+</div>
+<div class='option-sect'>
+<iframe 
+   frameborder="0"
+     width="400"
+   height="50"
+   	    src="https://drive.google.com/file/d/1NW28PTxKAelqyZf_1qwvUwPL9vf6v9rM/preview?usp=sharing">
+</iframe>
+
+  <select class="opt-drop" name="Q1_1" required>
+ <option disabled selected value> Click here to rate the Voice </option>
+    <option value="1">1.Unnatural</option>
+    <option value="2">2.Slightly Unnatural</option>
+    <option value="3">3.Average</option>
+    <option value="4">4.Almost Natural</option>
+     <option value="5">5.Natural</option>
+  </select>
+</div>
+
+<div class='option-sect'>
+<iframe 
+   frameborder="0"
+     width="400"
+   height="50"
+   	    src="https://drive.google.com/file/d/1JbZrYGa_O9b7C53l970Qiui4MpIaxOx-/preview?usp=sharing">
+</iframe>
+
+<select class="opt-drop" name="Q1_2" required>
+ <option disabled selected value> Click here to rate the Voice </option>
+    <option value="1">1.Unnatural</option>
+    <option value="2">2.Slightly Unnatural</option>
+    <option value="3">3.Average</option>
+    <option value="4">4.Almost Natural</option>
+     <option value="5">5.Natural</option>
+  </select>
+</div>
+
+  <div class='option-sect'>
+<iframe 
+   frameborder="0"
+     width="400"
+   height="50"
+   	    src="https://drive.google.com/file/d/14D4tmeRL27qSn1-W_RBKFdsRpJaxo8FB/preview?usp=sharing">
+</iframe>
+
+<select class="opt-drop" name="Q1_3" required>
+ <option disabled selected value> Click here to rate the Voice </option>
+    <option value="1">1.Unnatural</option>
+    <option value="2">2.Slightly Unnatural</option>
+    <option value="3">3.Average</option>
+    <option value="4">4.Almost Natural</option>
+     <option value="5">5.Natural</option>
+  </select>
+</div>
+  <div><br/>
+     <br/>
+    <br/>
+  </div>
+
+<div class="form-control">
+			<label>
+				2. Listen to the audio below and consider the rating of the healthy voice as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
+			</label>
+          <iframe
+   frameborder="0"
+   width="500"
+   height="100"
+   	    src="https://drive.google.com/file/d/1hoKpf-MLxl0P_KRijkEMfCH-YLtJdwk3/preview?usp=sharing">
+</iframe>		
+		</div>
+  
+ 
+</div>
+<div class='option-sect'>
+<iframe 
+   frameborder="0"
+     width="400"
+   height="50"
+   	    src="https://drive.google.com/file/d/14FKvRDQVqM3a0wEXkGO8YahhytUbLhJe/preview?usp=sharing">
+</iframe>
+
+<select class="opt-drop" name="Q2_1" required>
+ <option disabled selected value> Click here to rate the Voice </option>
+    <option value="1">1.Unnatural</option>
+    <option value="2">2.Slightly Unnatural</option>
+    <option value="3">3.Average</option>
+    <option value="4">4.Almost Natural</option>
+     <option value="5">5.Natural</option>
+  </select>
+</div>
+
+<div class='option-sect'>
+<iframe 
+   frameborder="0"
+     width="400"
+   height="50"
+   	    src="https://drive.google.com/file/d/1B5ZrRqO_B6pbztarvoDeIy0uTTDGeVmx/preview?usp=sharing">
+</iframe>
+
+<select class="opt-drop" name="Q2_2" required>
+ <option disabled selected value> Click here to Rate the Voice </option>
+    <option value="1">1.Unnatural</option>
+    <option value="2">2.Slightly Unnatural</option>
+    <option value="3">3.Average</option>
+    <option value="4">4.Almost Natural</option>
+     <option value="5">5.Natural</option>
+  </select>
+</div>
+
+  <div class='option-sect'>
+<iframe 
+   frameborder="0"
+     width="400"
+   height="50"
+   	    src="https://drive.google.com/file/d/1DpbdxO5BBhaKW1jg3Y-F9q1EqUl-9ABt/preview?usp=sharing">
+</iframe>
+<select class="opt-drop" name="Q2_3" required>
+ <option disabled selected value> Click here to rate the Voice </option>
+    <option value="1">1.Unnatural</option>
+    <option value="2">2.Slightly Unnatural</option>
+    <option value="3">3.Average</option>
+    <option value="4">4.Almost Natural</option>
+     <option value="5">5.Natural</option>
+  </select>
+</div>
+
+      <p style="font-style: italic;">Please click 'Save' before moving to Next Page</p>
+     <button type="submit" id ="myButton">Save</button>
+   
+  <div><br/><br/> <br/><br/></div>    
+   
+</form>
+  
+  </body>
+
+</html>
+
+     <br/>
+    <br/>
+  </div>
