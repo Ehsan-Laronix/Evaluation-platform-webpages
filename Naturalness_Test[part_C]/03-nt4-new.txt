@@ -24,10 +24,11 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      document.getElementById('myButton').innerHTML="Saved";
+     document.getElementById('myButton').innerHTML="Saved";
    document.getElementById('myButton').style.backgroundColor = '#556b2f';  
        document.getElementById('myButton').style.border = '2px solid white';  
        document.getElementById('myButton').style.color = 'white'; 
+      
     })
   });
 });
@@ -109,7 +110,7 @@ document.getElementById("nextPageButton").onclick = function () {
           	align-items: center;
 			width: 50%;
           	height: 30px;
-          	cursor: pointer;
+          	cursor:pointer;
           
 			
 			margin-bottom: 20px;
@@ -124,6 +125,15 @@ document.getElementById("nextPageButton").onclick = function () {
     color:#476857;
         
 }
+    
+		.option-sect{
+		margin-top:10px;
+		vertical-align: middle;
+		border: 0.5px solid white;
+		
+
+		}
+      
        .opt-drop{
       width:80%;
         height:25px;
@@ -134,13 +144,6 @@ document.getElementById("nextPageButton").onclick = function () {
         border:0.5px solid #FFFF;
         
       }
-		.option-sect{
-		margin-top:10px;
-		vertical-align: middle;
-		border: 0.5px solid white;
-		
-
-		}
       .parent {
  	 border: none;
 		width:100% ;
@@ -221,18 +224,18 @@ document.getElementById("nextPageButton").onclick = function () {
 	<p ></p>
   <h1 >Naturalness Test</h1>  
 <form id="my-form" 
-  method="POST"   action="https://script.google.com/macros/s/AKfycbyePbLDgYxSEu7rS6dD_UXAqZ_SA7p9hcPdHvpyjIdZvqtdaxX_8aO7joMc5E1s7bx4/exec"
+  method="POST"   action="https://script.google.com/macros/s/AKfycbw2lDL8WWo-XC4sqX7fvYJyXt-z-pAjP4Fuj5unaLMpuNypMUsHVxmr8uNTSeT9U321ig/exec"
 >
 <div class="form-control">
 <div class="form-control">
 			<label>
-				5. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale.Please rate how natural each voice sounds compared to the healthy voice.
+				7. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
 			</label>
           <iframe
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/1LfVfSsLSZwXqmjxmm4OGn_HwBNUETC93/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1-7LIJeG8xTNcGDJ9_SoQ8rAIGINyUGw6/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -243,10 +246,10 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1BJzzmr-o9f-spuEPZxDKJnaRNFmclTcQ/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1qFKWm8Qr04P8Olo0BG_1LkX-hs7Q88Ew/preview?usp=sharing">
 </iframe>
 
-   <select class="opt-drop" name="Q5_1" required>
+   <select class="opt-drop" name="Q43_1" required>
  <option disabled selected value> Click here to Rate  Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -261,9 +264,10 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1YvkSwa7IqSAFZmPioD7wT3pGycWgXiME/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/156_oSslpVynrgcCsKZokGHODYhxt_HWa/preview?usp=sharing">
 </iframe>
-   <select class="opt-drop" name="Q5_2" required>
+
+  <select class="opt-drop" name="Q43_2" required>
  <option disabled selected value> Click here to Rate  Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -271,6 +275,7 @@ document.getElementById("nextPageButton").onclick = function () {
     <option value="4">4.Almost Natural</option>
      <option value="5">5.Natural</option>
   </select>
+  
 </div>
 
   <div class='option-sect'>
@@ -278,10 +283,10 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1H_sZMrNnJPObokFWg5eGkMC3Vi7IXIU8/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/12tj--QJF8s_vo30oMRdPAAPg24799qNS/preview?usp=sharing">
 </iframe>
 
-     <select class="opt-drop" name="Q5_3" required>
+    <select class="opt-drop" name="Q43_3" required>
  <option disabled selected value> Click here to Rate  Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -297,13 +302,13 @@ document.getElementById("nextPageButton").onclick = function () {
 
 <div class="form-control">
 			<label>
-				6. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale.Please rate how natural each voice sounds compared to the healthy voice.
+				8. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
 			</label>
           <iframe
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/1hsij61N5Gnm5udMlIVnbCqMpRmZzDa1a/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1awZXoxb6FXMEfG3ua9Xy-ekX3Vamd_qr/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -314,10 +319,9 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1_giHm-jUl-EF3cMp1OUQMbOL7XWY7Oh0/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1108EXbfTVw3JUI2lqA5Y2H2a5zofKtBS/preview?usp=sharing">
 </iframe>
-
-   <select class="opt-drop" name="Q6_1" required>
+  <select class="opt-drop" name="Q44_1" required>
  <option disabled selected value> Click here to Rate  Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -332,9 +336,10 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/12CPgl6jNA0Tt3DQZ3sBvx5wsMVlMi366/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1ecHhwKiJbPwu45PgHlLzGVnKs5WgS_lr/preview?usp=sharing">
 </iframe>
-    <select class="opt-drop" name="Q6_2" required>
+
+    <select class="opt-drop" name="Q44_2" required>
  <option disabled selected value> Click here to Rate  Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -349,9 +354,10 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1cLnQosDtrEgbnzL38_auadGSNJN_66Hi/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/14qjsTfjW1_Pl9MHRhScZ1TQ3EX-ibked/preview?usp=sharing">
 </iframe>
-      <select class="opt-drop" name="Q6_3" required>
+   
+      <select class="opt-drop" name="Q44_3" required>
  <option disabled selected value> Click here to Rate  Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -361,7 +367,7 @@ document.getElementById("nextPageButton").onclick = function () {
   </select>
 </div>
 
-    <p style="font-style: italic;">Please click 'Save' before moving to Next Page</p>
+     <p style="font-style: italic;">Please click 'Save' before moving to Next Page</p>
      <button type="submit" id ="myButton">Save</button>
    
   <div><br/><br/></div>    

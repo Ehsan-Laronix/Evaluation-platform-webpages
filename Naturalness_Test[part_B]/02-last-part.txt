@@ -214,7 +214,7 @@ window.addEventListener("load", function() {
 	<p ></p>
   <h1 >Naturalness Test</h1>  
 <form id="my-form" 
-  method="POST"   action="https://script.google.com/macros/s/AKfycbyePbLDgYxSEu7rS6dD_UXAqZ_SA7p9hcPdHvpyjIdZvqtdaxX_8aO7joMc5E1s7bx4/exec"
+  method="POST"   action="https://script.google.com/macros/s/AKfycbziB9EurlLWzhHjmDb8zkU7L0CVWLHUXYh4QHpoDIjYosKVcz00fQYvLlomQjl8luItVA/exec"
 >
 <div class="form-control">
 <div class="form-control">
@@ -225,7 +225,7 @@ window.addEventListener("load", function() {
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/1JKjVdkpKPybqYb54CROJkNZ0dgNjy_pD/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1i3mNhbKrk3NExhSN_L6nOhzmvJ3POATf/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -236,10 +236,10 @@ window.addEventListener("load", function() {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1Hi7uVA68ZVE1Wu8rdX2ldlcdOHsBd-dn/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/14MhUT7gy3L5vK1njuBCFDaUWTiBMXxvP/preview?usp=sharing">
 </iframe>
 
-    <select class="opt-drop" name="Q17_1" required>
+    <select class="opt-drop" name="Q35_1" required>
  <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -254,10 +254,10 @@ window.addEventListener("load", function() {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1svOo0B8LoVK5r-6LQNpKRm4mnY55RYZ2/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1J5sOzpjZZ0vCi8d5mEABy2lGYHrKFjly/preview?usp=sharing">
 </iframe>
 
-    <select class="opt-drop" name="Q17_2" required>
+    <select class="opt-drop" name="Q35_2" required>
  <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -272,10 +272,10 @@ window.addEventListener("load", function() {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1iRjp4EKcdUJKnmFRqs7cbzGiiZ31woBp/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1QVLHkeUAT6Z_BN-xkzKZuognCP9QUkxW/preview?usp=sharing">
 </iframe>
 
-      <select class="opt-drop" name="Q17_3" required>
+      <select class="opt-drop" name="Q35_3" required>
  <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -297,7 +297,7 @@ window.addEventListener("load", function() {
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/1YPDegS-ANa-u0YBgm-5Ns2vASQPJUVQ-/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1LO65n857ZFr1LJHYz_PMY0r-wJYIUvfg/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -308,10 +308,10 @@ window.addEventListener("load", function() {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1unG9qXXpfzvm6yvo0Yy0SApxcasuAsph/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1MmodwV8nMGxl-krWxBxIeli1LzSf3zp_/preview?usp=sharing">
 </iframe>
 
-    <select class="opt-drop" name="Q18_1" required>
+    <select class="opt-drop" name="Q36_1" required>
  <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -326,10 +326,10 @@ window.addEventListener("load", function() {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1cR6rkvVNJWOPhvEE9HDtI-kGjHSv9Izs/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1sIBDG2odqNhkt1F60UWIIIjlb3dltfSy/preview?usp=sharing">
 </iframe>
 
-    <select class="opt-drop" name="Q18_2" required>
+    <select class="opt-drop" name="Q36_2" required>
  <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
@@ -344,10 +344,10 @@ window.addEventListener("load", function() {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1WJF2aVGeNanjHu8de1eNUosOSMDapl3v/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1sIBDG2odqNhkt1F60UWIIIjlb3dltfSy/preview?usp=sharing">
 </iframe>
 
-      <select class="opt-drop" name="Q18_3" required>
+      <select class="opt-drop" name="Q36_3" required>
  <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>

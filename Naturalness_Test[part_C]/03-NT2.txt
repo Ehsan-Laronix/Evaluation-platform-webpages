@@ -24,11 +24,10 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-    document.getElementById('myButton').innerHTML="Saved";
+     document.getElementById('myButton').innerHTML="Saved";
    document.getElementById('myButton').style.backgroundColor = '#556b2f';  
        document.getElementById('myButton').style.border = '2px solid white';  
        document.getElementById('myButton').style.color = 'white'; 
-      
     })
   });
 });
@@ -104,21 +103,20 @@ document.getElementById("nextPageButton").onclick = function () {
 			border: 1px solid #777;
 			border-radius: 10px;
            color:white;
-          cursor: pointer;
 			font-family: inherit;
 			font-size: 15px;
 			display: block;
           	align-items: center;
 			width: 50%;
           	height: 30px;
-          
+          	cursor:pointer;
 			
 			margin-bottom: 20px;
           	margin-left: 25%;
           margin-right: 25%;
           	
 		}
-        button:active {
+       button:active {
     background-color: white ;
     border: 2px solid #476857;
     color:#476857;
@@ -132,7 +130,6 @@ document.getElementById("nextPageButton").onclick = function () {
 		
 
 		}
-      
        .opt-drop{
       width:80%;
         height:25px;
@@ -143,7 +140,6 @@ document.getElementById("nextPageButton").onclick = function () {
         border:0.5px solid #FFFF;
         
       }
-      
       .parent {
  	 border: none;
 		width:100% ;
@@ -224,18 +220,18 @@ document.getElementById("nextPageButton").onclick = function () {
 	<p ></p>
   <h1 >Naturalness Test</h1>  
 <form id="my-form" 
-  method="POST"   action="https://script.google.com/macros/s/AKfycbyePbLDgYxSEu7rS6dD_UXAqZ_SA7p9hcPdHvpyjIdZvqtdaxX_8aO7joMc5E1s7bx4/exec"
+  method="POST"   action="https://script.google.com/macros/s/AKfycbw2lDL8WWo-XC4sqX7fvYJyXt-z-pAjP4Fuj5unaLMpuNypMUsHVxmr8uNTSeT9U321ig/exec"
 >
 <div class="form-control">
 <div class="form-control">
 			<label>
-				15. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
+				3. Listen to the audio below and consider the healthy voice as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
 			</label>
           <iframe
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/1pGsdxxEvOAL9wr02AzpoaP_hrecJX-vA/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/14-nmuNrCBvh6QxtAIdnIRA3r1pZIvDgq/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -246,11 +242,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1z4lXYnpOEPtfx3FntvGfYwR07ucDHJRf/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1FZ9I6MWKzJnHn9raSo_i2RoIs_7ai0G4/preview?usp=sharing">
 </iframe>
 
-    <select class="opt-drop" name="Q15_1" required>
- <option disabled selected value> Click here to Rate Voice </option>
+  <select class="opt-drop" name="Q39_1" required>
+ <option disabled selected value> Click here to rate the Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -264,12 +260,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1eLh-zWhNttuOeBbFgCuTJJiTeG_BPcMg/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1KzG9pJxe46XP2GnPOsN6jgRv8FmXmZuJ/preview?usp=sharing">
 </iframe>
 
-  
-   <select class="opt-drop" name="Q15_2" required>
- <option disabled selected value> Click here to Rate Voice </option>
+   <select class="opt-drop" name="Q39_2" required>
+ <option disabled selected value> Click here to rate the Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -283,11 +278,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1XCgmbg79tkbI7_4CXHuwXwpcDZ978Ywf/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/14aNvAZ982y3zVOV_8QYixWzsYxyJ-LvQ/preview?usp=sharing">
 </iframe>
 
-     <select class="opt-drop" name="Q15_3" required>
- <option disabled selected value> Click here to Rate Voice </option>
+     <select class="opt-drop" name="Q39_3" required>
+ <option disabled selected value> Click here to rate the Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -302,13 +297,13 @@ document.getElementById("nextPageButton").onclick = function () {
 
 <div class="form-control">
 			<label>
-				16. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
+				4. Listen to the audio below and consider the healthy voice as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
 			</label>
           <iframe
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/1wm8evFom8eVO5athrF8kWsu8bDhEJvmd/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1H04Y2pq9buLPFz_SJc9XR1XPd5jhGpFU/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -319,11 +314,10 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1bvEojtA8yQUpW-uzMt1RYkzI7CsR1Hzd/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1Ut_93t-wxQPV1haHs-j3DsPjQvggZ5hg/preview?usp=sharing">
 </iframe>
-
-   <select class="opt-drop" name="Q16_1" required>
- <option disabled selected value> Click here to Rate Voice </option>
+     <select class="opt-drop" name="Q40_1" required>
+ <option disabled selected value> Click here to rate the Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -337,17 +331,18 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1Uoefqt80SHtZF4kaVPNJUxnoKKVVaWvX/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1qnnvma0msN5dG5snvcMpUDGAvJAZsPlZ/preview?usp=sharing">
 </iframe>
 
-   <select class="opt-drop" name="Q16_2" required>
- <option disabled selected value> Click here to Rate Voice </option>
+    <select class="opt-drop" name="Q40_2" required>
+ <option disabled selected value> Click here to rate the Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
     <option value="4">4.Almost Natural</option>
      <option value="5">5.Natural</option>
   </select>
+  
 </div>
 
   <div class='option-sect'>
@@ -355,12 +350,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1zBJni73kbsBw4YhyMeGcvQRv_vgXbR0k/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1mjrrBmFF78Flf4zAnB2IvcjkRBGWGf16/preview?usp=sharing">
 </iframe>
 
-    
-     <select class="opt-drop" name="Q16_3" required>
- <option disabled selected value> Click here to Rate Voice </option>
+      <select class="opt-drop" name="Q40_3" required>
+ <option disabled selected value> Click here to rate the Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -368,8 +362,9 @@ document.getElementById("nextPageButton").onclick = function () {
      <option value="5">5.Natural</option>
   </select>
 </div>
-
-      <p style="font-style: italic;">Please click 'Save' before moving to Next Page</p>
+   <p style="font-style: italic;">Please click 'Save' before moving to Next Page</p>
+  
+    
      <button type="submit" id ="myButton">Save</button>
    
   <div><br/><br/></div>    

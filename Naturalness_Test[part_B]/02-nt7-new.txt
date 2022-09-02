@@ -224,18 +224,18 @@ document.getElementById("nextPageButton").onclick = function () {
 	<p ></p>
   <h1 >Naturalness Test</h1>  
 <form id="my-form" 
-  method="POST"   action="https://script.google.com/macros/s/AKfycbyePbLDgYxSEu7rS6dD_UXAqZ_SA7p9hcPdHvpyjIdZvqtdaxX_8aO7joMc5E1s7bx4/exec"
+  method="POST"   action="https://script.google.com/macros/s/AKfycbziB9EurlLWzhHjmDb8zkU7L0CVWLHUXYh4QHpoDIjYosKVcz00fQYvLlomQjl8luItVA/exec"
 >
 <div class="form-control">
 <div class="form-control">
 			<label>
-				9. Listen to the audio below and consider the the rating of that as 5 in 1-5 scale. Now rate how natural different voice in the following audio clips are.
+				13. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
 			</label>
           <iframe
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/1DUuXmADOXI8xbnyPymJ9WMFKpnABruko/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1XsVlV54DZrJPbZ1bAPT2h4dV3tiGJgpY/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -246,11 +246,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/11Nbx8xdTC-raaEJnHswLf50GBkn2hk0s/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1fc0AknSFy_qdZP4ManOMJDRezjR1YRtc/preview?usp=sharing">
 </iframe>
 
-    <select class="opt-drop" name="Q9_1" required>
- <option disabled selected value> Click here to Rate Voice</option>
+    <select class="opt-drop" name="Q31_1" required>
+ <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -264,12 +264,12 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/19OM6OKa9hlSXXxnYK0i6lxZtbSZyY76X/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1KaUF5_1GbH3baSo8ltm5N1ET72sxbRl6/preview?usp=sharing">
 </iframe>
 
   
-   <select class="opt-drop" name="Q9_2" required>
- <option disabled selected value> Click here to Rate Voice</option>
+   <select class="opt-drop" name="Q31_2" required>
+ <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -283,11 +283,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/10mx12bHiLaTx3q5TMT1nhwvRkoKtxLZa/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/10frdnxIoU7J7di60dslJc91qfJiFIj-F/preview?usp=sharing">
 </iframe>
 
-     <select class="opt-drop" name="Q9_3" required>
- <option disabled selected value> Click here to Rate Voice</option>
+     <select class="opt-drop" name="Q31_3" required>
+ <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -302,13 +302,13 @@ document.getElementById("nextPageButton").onclick = function () {
 
 <div class="form-control">
 			<label>
-				10. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
+				14. Listen to the audio below and consider the healthy voice rated as 5 in 1-5 scale. Please rate how natural each voice sounds compared to the healthy voice.
 			</label>
           <iframe
    frameborder="0"
    width="500"
    height="100"
-   	    src="https://drive.google.com/file/d/11Lu3yJ2DZxRncsGOKVCL1_ypDoejhT33/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1UHKE3xXmyrNgOknwpe6WrAidF6i_Omln/preview?usp=sharing">
 </iframe>		
 		</div>
   
@@ -319,11 +319,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1WLloozJh6WgLV7pblyLES2-ZPHoTfyte/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1VZO-pHY4T1jX19OKBkELY2O-9Ej2loqX/preview?usp=sharing">
 </iframe>
 
-   <select class="opt-drop" name="Q10_1" required>
- <option disabled selected value> Click here to Rate Voice</option>
+   <select class="opt-drop" name="Q32_1" required>
+ <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -337,11 +337,11 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1zsL7vRLnGMSRxCPIWrKh730qVrai2LCQ/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1M73fFV9QR8V_jQvhbfgYoS68bqYhO4dT/preview?usp=sharing">
 </iframe>
 
-   <select class="opt-drop" name="Q10_2" required>
- <option disabled selected value> Click here to Rate Voice</option>
+   <select class="opt-drop" name="Q32_2" required>
+ <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
@@ -355,12 +355,12 @@ document.getElementById("nextPageButton").onclick = function () {
    frameborder="0"
      width="400"
    height="50"
-   	    src="https://drive.google.com/file/d/1FocRVw087UwYquYr-vutIer2Erbmvgqi/preview?usp=sharing">
+   	    src="https://drive.google.com/file/d/1c54cP0nRSrYPSgHgMrliFSv4ZCQo7eTs/preview?usp=sharing">
 </iframe>
 
     
-     <select class="opt-drop" name="Q10_3" required>
- <option disabled selected value> Click here to Rate Voice</option>
+     <select class="opt-drop" name="Q32_3" required>
+ <option disabled selected value> Click here to Rate Voice </option>
     <option value="1">1.Unnatural</option>
     <option value="2">2.Slightly Unnatural</option>
     <option value="3">3.Average</option>
